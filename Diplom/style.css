@@ -1,0 +1,200 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .flex {
+   display: flex;
+    }
+    
+    .left {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+    width: 700px;
+
+    }
+    
+    .right {
+    flex: 1;
+    padding: 20px;
+    
+    height: 300px;
+
+        
+    }
+    .red{
+        display: flex;
+        flex-direction: row;
+    }
+    .dragContainer {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 690px;
+    }
+    
+    .dragObject {
+        
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: move;
+        
+     
+               
+
+    }
+    #dragObject2 {
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color:white;
+       
+        height: 50px;
+        width:  330px;
+
+    }
+    #dragObject6 {
+        
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color:white;
+       
+        height: 50px;
+        width:  520px;
+        
+
+    }
+    #dragObject3 {
+        
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color:white;
+       
+        height: 180px;
+        width:  350px;
+        
+
+    }
+    #dragObject4 {
+        
+       
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color:white;
+       
+        height: 50px;
+        width:  150px;
+        
+
+    }
+    #dragObject1 {
+        
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color:white;
+       
+        height: 100px;
+        width:  100px;
+        
+
+    }
+    #dragObject5 {
+        
+       
+        
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color:white;
+       
+        height: 200px;
+        width:  500px;
+
+    }
+    .image{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .dropArea {
+        
+        border: 2px dashed #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #dropArea1{
+       width: 50px; 
+       height: 50px;
+    }
+    #dropArea2{
+        margin-left: auto;
+        width: 350px; 
+        height: 50px;
+     }
+     #dropArea3{
+    height: 300px;
+      }
+     #dropArea4{
+        margin-left: auto;
+    margin-right: auto;
+        width: 300px;
+        height: 60px;
+          }
+     #dropArea5{
+            margin-left: auto;
+        margin-right: auto;
+            width: auto;
+            height: 300px;
+              }
+    #dropArea6 {
+        margin-left: auto;
+         margin-right: auto;
+       
+         height: 70px;
+    }
+              
+  
+    button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    #ratingResult {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    }
+    
+    /* Медиа-запрос для адаптивного макета */
+    @media screen and (max-width: 768px) {
+    .flex {
+    flex-direction: column;
+    }
+    
+    .left,
+    .right {
+    padding: 20px;
+    
+    }
+    }
+    
+.correct {
+    border: 5px solid lightgreen !important;
+    }
+    
+    .incorrect {
+    border: 5px solid red !important;
+    }

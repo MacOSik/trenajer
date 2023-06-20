@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
+</head>
+<body>
+
+<div class="flex">
+<div class="left">
+<div class="dragContainer">
+<img id="dragObject1" class="dragObject" draggable="true" src="img/logo.png" alt="Logo">
+<img id="dragObject2" class="dragObject" draggable="true"src="img/nav-bar.png" alt="Nav Bar">
+<img id="dragObject3" class="dragObject" draggable="true"src="img/banner.jpg" alt="Banner">
+<img id="dragObject4" class="dragObject"draggable="true" src="img/heading.png" alt="Heading">
+<img id="dragObject5" class="dragObject"draggable="true" src="img/news.png" alt="News">
+<img id="dragObject6" class="dragObject" draggable="true"src="img/footer.png" alt="Footer">
+</div>
+</div>
+<div class="right">
+<div class="red">
+<div class="dropArea"draggable="true" id="dropArea1"></div>
+<div class="dropArea"draggable="true" id="dropArea2"></div>
+</div>
+<div class="dropArea" draggable="true"id="dropArea3"></div>
+<div class="dropArea"draggable="true" id="dropArea4"></div>
+<div class="dropArea"draggable="true" id="dropArea5"></div>
+<div class="dropArea" draggable="true"id="dropArea6"></div>
+</div>
+</div>
+<button id="resetButton">Начать сначала</button>
+
+<button id="checkButton">Проверить</button>
+<div id="ratingResult"></div>
+
+<script src="reset.js"></script>
+<script src="shuffle.js"></script>
+<script src="blocks_move.js"></script>
+<script src="block.js"></script>
+<script src="js.js"></script>
+<script src="button.js"></script>
+<script src="fix.js"></script>
+
+</body>
+</html>
+
+
